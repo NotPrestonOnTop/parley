@@ -1,0 +1,16 @@
+{
+  "name": "parley",
+  "version": "1.0.0",
+  "description": "Self-hosted chat: servers, channels, DMs, friends, roles, voice and video.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js"
+  },
+  "engines": { "node": ">=22.13.0" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "socket.io": "^4.8.1"
+  }
+}
